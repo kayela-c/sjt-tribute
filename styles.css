@@ -1,0 +1,140 @@
+/* Box sizing rules */
+
+ 
+
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+ 
+
+
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+#img-div {
+  background-image: url("/img/sjt-img.jpg");
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 25rem;
+  
+  
+  
+}
+
+#head {
+  color: rgb(82, 55, 36);
+
+}
+
+#img-caption {
+  text-align: center;
+  margin: 0rem 0;
+  padding: 5rem 0;
+  background: rgb(233, 211, 180);
+}
+
+.main-title {
+  text-align: center;
+  background: rgb(233, 211, 180);
+  padding: 5rem 0;
+}
+.container {
+display: flex;
+justify-content: center;
+padding: 2rem 4rem;
+background: rgb(233, 211, 180);
+flex-direction: column;
+}
+
+#image {
+  width: 100%;
+}
+
+.bold-txt {
+    font-weight: 900;
+}
+.timeline-points {
+text-align: left;
+margin: 1rem 0;
+padding: 0 5rem;
+
+}
+
+
+
+#tribute-info {
+  background-color:  rgb(242, 236, 227);
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin: auto;
+  color: rgb(82, 55, 36);
+}
+
+#tb-link {
+ color: rgb(82, 55, 36);
+ text-decoration: none;
+ font-weight: bold;
+}
+#tb-link:hover {
+  color: rgb(82, 55, 36);
+  text-decoration: underline;
+ }
+
+#tribute-link:active {  
+  text-decoration: none; 
+}
+
+#tribute-link:hover {
+  color: rgb(82, 55, 36);
+  text-decoration: underline;
+}
+
+.center-text {
+  text-align: center;
+}
+
