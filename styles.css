@@ -26,7 +26,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-
+  background: rgb(233, 211, 180);
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: sans-serif;
@@ -75,19 +75,16 @@ body {
   text-align: center;
   margin: 0rem 0;
   padding: 5rem 0;
-  background: rgb(233, 211, 180);
 }
 
 .main-title {
   text-align: center;
-  background: rgb(233, 211, 180);
   padding: 5rem 0;
 }
 .container {
 display: flex;
 justify-content: center;
 padding: 2rem 4rem;
-background: rgb(233, 211, 180);
 flex-direction: column;
 }
 
