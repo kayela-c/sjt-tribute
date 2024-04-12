@@ -1,11 +1,13 @@
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5">
 		<div id="head">
-			<h1 class="main-title h1">Soujurner Truth</h1>
-			<div id="img-div"></div>
-			<p id="img-caption">Abolitionist, Author, Human Rights Activist.</p>
+			<card>
+				<h1 class="main-title h1">Soujurner Truth</h1>
+				<img src="/src/potrait.jpg" alt="Sojourner Truth" class="object-contain"/>
+				<p id="img-caption">Abolitionist, Author, Human Rights Activist.</p>
+			</card>
 		</div>
-		<div id="tribute-info card">
+		<div id="tribute-info">
 			<p class="timeline-points">
 			  <span class="h6">1792</span> - Isabella Baumfree (Sojorner
 			  Truth) born into slavery on the Hardenbergh estate, Swartekill,

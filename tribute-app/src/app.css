@@ -14,17 +14,6 @@
     }
   }
   
-  
-  #img-div {
-    background-image: url("potrait.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 25rem;
-   
-  }
-  
-  
- 
   #img-caption {
     text-align: center;
     margin: 0rem 0;
