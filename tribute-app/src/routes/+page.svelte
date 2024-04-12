@@ -3,12 +3,10 @@
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5">
 		<div id="head">
-			<h1 class="main-title">Soujurner Truth</h1>
+			<h1 class="h1">Soujurner Truth</h1>
 			<div id="img-div"></div>
 			<p id="img-caption">Abolitionist, Author, Human Rights Activist.</p>
-		  </div>
-		<h1 class="h1">Let's get cracking bones!</h1>
-		<p>Start by exploring:</p>
+		</div>
 		<div id="tribute-info">
 			<p class="timeline-points">
 			  <span class="bold-txt">1792</span> - Isabella Baumfree (Sojorner
