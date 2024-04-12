@@ -21,8 +21,6 @@
     background-repeat: no-repeat;
     height: 25rem;
    
-    
-    
   }
   
   #head {
@@ -46,10 +44,7 @@
   padding: 2rem 4rem;
   flex-direction: column;
   }
-  
-  #image {
-    width: 100%;
-  }
+
   
   .timeline-points {
   text-align: left;
@@ -58,14 +53,14 @@
   }
   
   
-  #tribute-info {
-    /* background-color:  rgb(242, 236, 227); */
+  /* #tribute-info {
+    background-color:  rgb(242, 236, 227);
     padding-top: 2rem;
     padding-bottom: 3rem;
     margin: auto;
     color: rgb(82, 55, 36);
   }
-  
+   */
   #tb-link:hover {
     color: rgb(82, 55, 36);
     text-decoration: underline;
