@@ -55,7 +55,7 @@ body {
 
 
 #img-div {
-  background-image: url("/img/sjt-img.jpg");
+  background-image: url("potrait.jpg");
   background-position: center;
   object-fit: cover;
   background-repeat: no-repeat;
