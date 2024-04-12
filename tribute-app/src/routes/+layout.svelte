@@ -24,8 +24,6 @@
 	//css file
 	import "../app.css";
 
-	//custom components
-    import Card from '../components/card.svelte';
 </script>
 
 <slot />

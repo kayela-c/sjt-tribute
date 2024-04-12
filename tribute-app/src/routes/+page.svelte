@@ -1,11 +1,14 @@
+<script lang="ts">
+	
+</script>
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5">
-		<div id="head">
-			<card>
+		<div id="head" class="card">
+			
 				<h1 class="main-title h1">Soujurner Truth</h1>
 				<img src="/src/potrait.jpg" alt="Sojourner Truth" class="object-contain"/>
 				<p id="img-caption">Abolitionist, Author, Human Rights Activist.</p>
-			</card>
+			
 		</div>
 		<div id="tribute-info">
 			<p class="timeline-points">
