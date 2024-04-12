@@ -57,11 +57,9 @@ body {
 #img-div {
   background-image: url("potrait.jpg");
   background-position: center;
-  object-fit: cover;
   background-repeat: no-repeat;
-  width: 100vw;
   height: 25rem;
-  
+ 
   
   
 }
