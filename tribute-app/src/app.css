@@ -1,0 +1,87 @@
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+     scroll-behavior: auto;
+    }
+    
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  
+  #img-div {
+    background-image: url("potrait.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+   
+    
+    
+  }
+  
+  #head {
+    color: rgb(82, 55, 36);
+  
+  }
+  
+  #img-caption {
+    text-align: center;
+    margin: 0rem 0;
+    padding: 5rem 0;
+  }
+  
+  .main-title {
+    text-align: center;
+    padding: 5rem 0;
+  }
+  .container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 4rem;
+  flex-direction: column;
+  }
+  
+  #image {
+    width: 100%;
+  }
+  
+  .timeline-points {
+  text-align: left;
+  margin: 1rem 0;
+  padding: 0 5rem;
+  }
+  
+  
+  #tribute-info {
+    background-color:  rgb(242, 236, 227);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    color: rgb(82, 55, 36);
+  }
+  
+  #tb-link:hover {
+    color: rgb(82, 55, 36);
+    text-decoration: underline;
+   }
+  
+  #tribute-link:active {  
+    text-decoration: none; 
+  }
+  
+  #tribute-link:hover {
+    color: rgb(82, 55, 36);
+    text-decoration: underline;
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  
+
