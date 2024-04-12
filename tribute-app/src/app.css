@@ -23,11 +23,8 @@
    
   }
   
-  #head {
-    color: rgb(82, 55, 36);
   
-  }
-  
+ 
   #img-caption {
     text-align: center;
     margin: 0rem 0;
@@ -44,8 +41,6 @@
   padding: 2rem 4rem;
   flex-direction: column;
   }
-
-  
   .timeline-points {
   text-align: left;
   margin: 1rem 0;
@@ -61,19 +56,6 @@
     color: rgb(82, 55, 36);
   }
    */
-  #tb-link:hover {
-    color: rgb(82, 55, 36);
-    text-decoration: underline;
-   }
-  
-  #tribute-link:active {  
-    text-decoration: none; 
-  }
-  
-  #tribute-link:hover {
-    color: rgb(82, 55, 36);
-    text-decoration: underline;
-  }
   
   .center-text {
     text-align: center;

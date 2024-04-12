@@ -5,7 +5,7 @@
 			<div id="img-div"></div>
 			<p id="img-caption">Abolitionist, Author, Human Rights Activist.</p>
 		</div>
-		<div id="tribute-info">
+		<div id="tribute-info card">
 			<p class="timeline-points">
 			  <span class="h6">1792</span> - Isabella Baumfree (Sojorner
 			  Truth) born into slavery on the Hardenbergh estate, Swartekill,
